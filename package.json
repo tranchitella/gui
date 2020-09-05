@@ -10,6 +10,7 @@
     "@material-ui/lab": "4.0.0-alpha.55",
     "@material-ui/pickers": "^3.2.10",
     "@mdi/js": "^5.5.55",
+    "@msgpack/msgpack": "^1.12.2",
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.8.0",
     "axios": "^0.20.0",
@@ -45,6 +46,9 @@
     "universal-cookie": "^4.0.3",
     "validator": "^13.1.1",
     "victory": "^35.0.8",
+    "xterm-addon-fit": "^0.4.0",
+    "xterm-addon-search": "^0.7.0",
+    "xterm-for-react": "^1.0.4",
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {

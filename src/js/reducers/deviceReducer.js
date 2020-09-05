@@ -250,6 +250,19 @@ const deviceReducer = (state = initialState, action) => {
         }
       };
     }
+    case DeviceConstants.RECEIVE_DEVICE_CONNECT: {
+      const { status: status_connect } = action.device;
+      return {
+        ...state,
+        byId: {
+          ...state.byId,
+          [action.device.device_id]: {
+            ...state.byId[action.device.device_id],
+            status_connect
+          }
+        }
+      };
+    }
     // TODO!!!
     case DeviceConstants.UPDATE_DEVICE_AUTHSET:
     case DeviceConstants.REMOVE_DEVICE_AUTHSET:
